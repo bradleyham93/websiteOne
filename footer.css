@@ -1,0 +1,15 @@
+.footer--container{
+    background-color: var(--dark);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer--icon{
+    font-size: 2em;
+    color: var(--feature);
+    padding:.5em
+     
+}

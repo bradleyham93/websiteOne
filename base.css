@@ -1,0 +1,17 @@
+:root{
+    --dark: #082536;
+    --mid: #B9BAA3;
+    --light: #D6D5C9;
+    --feature: #D5B942;
+    --light-feature: #D9D375;
+}
+
+body{
+    font-family: "Raleway";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+
+
+}

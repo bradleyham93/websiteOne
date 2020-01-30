@@ -1,0 +1,31 @@
+.testimonials--container{
+    padding: 3em;
+    text-align: center;
+}
+
+.testimonials--name{
+    display: inline;
+    margin-left: 1em;
+    font-size: 3em;
+}
+
+.testimonials--image{
+    display:inline-block;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url("person.jpg");
+    background-size: cover;
+    border: 3px solid var(--feature);
+}
+
+.testimonials--topContentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.testimonials--container p{
+    margin-top: 1em;
+}

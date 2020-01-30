@@ -1,0 +1,31 @@
+.nav{
+     background-color: var(--dark);
+}
+
+.nav ul{
+    list-style-type: none;
+    color: white;
+    display:flex;
+    align-items: center;
+    height: 100%;   
+    width: 90%;
+    margin:0 auto;
+    font-weight: 200;
+
+}
+.nav li{
+    padding: 1em;
+}
+
+.nav--home{
+    margin-right: auto;
+}
+
+
+
+
+.nav--freeQuote{
+    background-color: var(--feature);
+    color: var(--dark);
+    font-weight: 700;
+}

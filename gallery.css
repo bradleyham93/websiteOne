@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gridGallery--Container{
+    grid-gap: 15px;
+    margin:20px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh;
+
+}
+
+.gOne{
+    background: url('house1.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/5;
+    grid-row: 1/8;
+}
+.gTwo{
+    background: url('house2.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 5/8;
+    grid-row: 1/5;
+}
+.gThree{
+    background: url('house3.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 8/-1;
+    grid-row: 1/8;
+}
+.gFour{
+    background: url('house4.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 5/8;
+    grid-row: 5/-1;
+}
+.gFive{
+    background: url('house5.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 1/5;
+    grid-row: 8/-1;
+}
+.gSix{
+    background: url('house6.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-column: 8/-1;
+    grid-row: 8/-1;
+}
+
+@media(max-width: 790px){
+    .gridGalleryContainer{
+        grid-gap: 15px;
+        margin:20px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        height: 100vh;
+    
+    }
+    
+    .gOne{
+        background: url('house1.jpg');
+        background-size: cover;
+        background-position: center;
+        grid-column: 1/7;
+        grid-row: 1/5;
+    }
+     .gTwo{
+        background: url('house2.jpg');
+        background-size: cover;
+        background-position: center;
+        grid-column: 7/-1;
+        grid-row: 1/5;
+    }
+    .three{
+        background: url('house4.jpg');
+        background-size: cover;
+        background-position: center;
+        grid-column: 1/6;
+        grid-row: 5/10;
+    }
+    .four{
+        background: url('house3.jpg');
+        background-size: cover;
+        background-position: center;
+        grid-column: 6/-1;
+        grid-row: 5/8;
+    }
+   .five{
+        background: url('house6.jpg');
+        background-size: cover;
+        background-position: center;
+        grid-column: 6/-1;
+        grid-row: 8/-1;
+    }
+    .six{
+        background: url('house5.jpg');
+        background-size: cover;
+        background-position: center;
+        grid-column: 1/6;
+        grid-row: 10/-1;
+    } 
+}

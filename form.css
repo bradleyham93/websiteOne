@@ -1,0 +1,99 @@
+
+.secondContentContainer{
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.form{
+
+    background-color: var(--dark);
+    width: 30em;
+    
+    padding: 3em 2em;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.2);
+   align-self: center;
+   margin:3em;
+
+   border-radius: 1em;
+   
+
+  }
+  
+  .form__inputs{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content:flex-end;
+  }
+  
+  .form__input{
+    padding:1.3em;
+    margin:3px 5px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .legend {
+    padding: 0 0 2em 0;
+    
+    margin-bottom: auto;
+  }
+  
+  h1{
+    
+    color: var(--light);
+  }
+
+  .form p {
+    color: var(--light);
+    font-size: .9em;
+  }
+  
+  .form__button{
+    background-color:  var(--feature);
+    text-decoration: none;
+    border: none;
+    color:white;
+   
+    font-size:1em;
+    cursor: pointer;
+    padding:1.1em;
+  }
+  .form__button:hover{
+    background-color: #43A047;
+  }
+
+  
+  textarea{
+    resize: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #888;
+    font-weight:inherit;
+  }
+  
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+   color: #888;
+    font-weight:100;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #888;
+    font-weight:100;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+     color: #888;
+    font-weight:100;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #888;
+    font-weight:100;
+  }
+  
+  .oppositeForm h1{
+      font-weight: 900;
+      font-size: 3em;
+      color: var(--dark)
+  }
+
